@@ -1,0 +1,20 @@
+# 🚀 Release v1.0.0
+
+🎉 **Initial public release** of the Bitcoin address generator.
+
+## Included
+
+- `public_key_to_bitcoin_addresses.py`
+
+This script:
+- Converts uncompressed public keys to compressed format
+- Generates Bitcoin addresses (compressed & uncompressed)
+- Uses SHA-256 and RIPEMD-160 hashing
+- Encodes addresses with Base58Check
+
+---
+
+🛡️ Licensed under MIT
+
+“**I morph bits, not to break, but to understand.**”  
+— BitMorphX
