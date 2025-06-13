@@ -1,0 +1,18 @@
+{
+  "python.pythonPath": ".venv/bin/python",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "code-runner.executorMap": {
+    "python": "python3 -u"
+  },
+  "code-runner.runInTerminal": true
+}
