@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run public_key_to_bitcoin_addresses",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/public_key_to_bitcoin_addresses.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
