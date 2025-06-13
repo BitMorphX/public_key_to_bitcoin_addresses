@@ -2,13 +2,9 @@
   <img src="assets/banner.png" alt="Public Key to Bitcoin Addresses banner" width="100%" />
 </p>
 
-<<<<<<< HEAD
-## Project Description
-=======
 # 🧠 PUBLIC KEY TO BITCOIN ADDRESSES
 
 **Public Key to Bitcoin Addresses** is a compact and reliable Python utility that converts an uncompressed Bitcoin public key to both compressed and uncompressed Bitcoin addresses using built-in encoding logic.
->>>>>>> 94c1743 (Add project README.md)
 
 - ✅ Key compression (`04...` → `02...` / `03...`)
 - ✅ Uncompressed and compressed address generation
@@ -28,18 +24,18 @@
 
 ## 📁 File Overview
 
-- `public_key_to_bitcoin_addresses.py` – Main conversion script  
-- `public_key_to_bitcoin_addresses.bat` – Windows launcher  
-- `.vscode/`  
-  - `settings.json` – Editor preferences  
-  - `launch.json` – Debugging configuration  
-  - `tasks.json` – Task runner integration  
-  - `extensions.json` – Recommended VS Code extensions  
-- `README.md` – This documentation  
-- `ETHICS.md` – Ethical usage guidelines  
-- `NOTICE` – Third-party attributions  
-- `LICENSE` – Apache 2.0 license  
-- `requirements.txt` – Python dependencies  
+- `public_key_to_bitcoin_addresses.py` – Main conversion script
+- `public_key_to_bitcoin_addresses.bat` – Windows launcher
+- `.vscode/`
+  - `settings.json` – Editor preferences
+  - `launch.json` – Debugging configuration
+  - `tasks.json` – Task runner integration
+  - `extensions.json` – Recommended VS Code extensions
+- `README.md` – This documentation
+- `ETHICS.md` – Ethical usage guidelines
+- `NOTICE` – Third-party attributions
+- `LICENSE` – Apache 2.0 license
+- `requirements.txt` – Python dependencies
 
 ---
 
@@ -73,11 +69,11 @@ python public_key_to_bitcoin_addresses.py
 public_key_to_bitcoin_addresses.bat
 ```
 
-- Input: 130-character uncompressed public key (starts with `04`)  
-- Output:  
-  - Compressed public key (`02`/`03`)  
-  - Bitcoin address from uncompressed key  
-  - Bitcoin address from compressed key  
+- Input: 130-character uncompressed public key (starts with `04`)
+- Output:
+  - Compressed public key (`02`/`03`)
+  - Bitcoin address from uncompressed key
+  - Bitcoin address from compressed key
 
 ---
 
@@ -100,13 +96,13 @@ Bitcoin Address (Compressed):
 
 This software is provided strictly for **educational, analytical, and research purposes only**.
 
-The author **does not promote or condone** any unethical behavior, unauthorized access, or abuse of blockchain systems or cryptographic tools.  
+The author **does not promote or condone** any unethical behavior, unauthorized access, or abuse of blockchain systems or cryptographic tools.
 By using this code, you agree to accept **full responsibility for your actions and their consequences**.
 
-This project **does not include or generate any real private keys** linked to actual cryptocurrency holdings.  
+This project **does not include or generate any real private keys** linked to actual cryptocurrency holdings.
 It is designed to operate in **offline environments** or for simulation/testing purposes, using random or mock data for learning.
 
-**The author accepts no liability** for any damages, losses, or illegal use resulting from this software.  
+**The author accepts no liability** for any damages, losses, or illegal use resulting from this software.
 All responsibility lies solely with the end user.
 
 Any attempt to use this tool maliciously or exploitatively is **strictly prohibited** and may violate international laws.
@@ -117,10 +113,10 @@ Any attempt to use this tool maliciously or exploitatively is **strictly prohibi
 
 ## ⚖️ Ethical Use
 
-This tool is created strictly for **research and educational purposes**.  
+This tool is created strictly for **research and educational purposes**.
 See [ETHICS.md](./ETHICS.md) for the full statement.
 
-> ❗ Do not use this tool for brute-force attempts or unauthorized activity.  
+> ❗ Do not use this tool for brute-force attempts or unauthorized activity.
 > 🧠 Use responsibly and with integrity.
 
 ---
@@ -161,37 +157,31 @@ public-key-to-bitcoin-addresses/
 
 ## 🍱 Support
 
-★ **Bitcoin (BTC)**  
+★ **Bitcoin (BTC)**
 `1MorphXyhHpgmYSfvwUpWojphfLTjrNXc7`
 
-★ **Monero (XMR)**  
+★ **Monero (XMR)**
 `86VAmEogaZF5WDwR3SKtEC6HSEUh6JPA1gVGcny68XmSJ1pYBbGLmdzEB1ZzGModLBXkG3WbRv12mSKv4KnD8i9w7VTg2uu`
 
-★ **Dash (DASH)**  
+★ **Dash (DASH)**
 `XtNuNfgaEXFKhtfxAKuDkdysxUqaZm7TDX`
 
-**We also value early privacy coins such as:**  
-★ **Bytecoin (BCN)**  
+★ **Bytecoin (BCN)**
 `bcnZNMyrDrweQgoKH6zpWaE2kW1VZRsX3aDEqnxBVEQfjNnPK6vvNMNRPA4S7YxfhsStzyJeP16woK6G7cRBydZm2TvLFB2eeR`
 
 🙏 *Thank you for supporting independent research and ethical technology.*
 
 ---
 
-<<<<<<< HEAD
-Created with dedication to education, blockchain exploration, and ethical research.  
-*“I morph bits, not to break, but to understand.” — BitMorphX*
-=======
 ## 👤 Author & Contact
 
-🔗 GitHub: https://github.com/BitMorphX  
-✉️ Email: BitMorphX@proton.me  
-💬 Telegram: https://t.me/BitMorphX
+- 🔗 **GitHub**: [https://github.com/BitMorphX](https://github.com/BitMorphX)
+- ✉️ **Email**: [BitMorphX@proton.me](mailto:BitMorphX@proton.me)
+- 💬 **Telegram**: [https://t.me/BitMorphX](https://t.me/BitMorphX)
 
-> _“I morph bits, not to break, but to understand.”_  
+> _“I morph bits, not to break, but to understand.”_
 > — **BitMorphX**
 
 ---
 
 © BitMorphX – All rights reserved.
->>>>>>> 94c1743 (Add project README.md)
