@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "njpwerner.autodocstring",
+    "esbenp.prettier-vscode",
+    "donjayamanne.python-environment-manager",
+    "batisteo.vscode-django"
+  ],
+  "unwantedRecommendations": [
+    "vscode.typescript-language-features"
+  ]
+}
