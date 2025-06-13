@@ -1,4 +1,6 @@
-# 🚀 Release v1.0.0
+# 📎 RELEASE NOTES – public_key_to_bitcoin_addresses.py  
+**Version:** 2.0.0  
+**Release Date:** 2025-05-03
 
 🎉 **Initial public release** of the Bitcoin address generator.
 
