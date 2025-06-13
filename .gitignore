@@ -1,101 +1,42 @@
-
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# VS Code
-.vscode/
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# pytype
-.pytype/
-
-# Environment files
-.env
-.venv
+# Virtual environment
+.venv/
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
-# macOS
+# Editor directories and settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS / user files
 .DS_Store
-
-# Windows
 Thumbs.db
-ehthumbs.db
-Desktop.ini
 
-# GitHub files
-README_files.zip
+# Logs / temp
+*.log
+*.tmp
+
+# Python tooling
+.mypy_cache/
+.pytest_cache/
+coverage.*
+*.cover
+*.py[cod]
+.tox/
+.build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code extensions sync
+*.code-workspace
+
+# Output folders
+dist/
+build/
