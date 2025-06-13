@@ -1,0 +1,3 @@
+pycryptodome
+base58
+termcolor
