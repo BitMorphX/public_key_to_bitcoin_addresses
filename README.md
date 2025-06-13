@@ -1,73 +1,165 @@
-# 📌 Public Key to Bitcoin Addresses Generator
+<p align="center">
+  <img src="assets/banner.png" alt="Public Key to Bitcoin Addresses banner" width="100%" />
+</p>
 
+<<<<<<< HEAD
 ## Project Description
+=======
+# 🧠 PUBLIC KEY TO BITCOIN ADDRESSES
 
-**public_key_to_bitcoin_addresses.py** is a Python script designed to generate Bitcoin addresses from an uncompressed public key.
-The program automatically:
-- 🔄 Converts an uncompressed public key into compressed format.
-- 🛠️ Generates Bitcoin addresses for both compressed and uncompressed keys.
+**Public Key to Bitcoin Addresses** is a compact and reliable Python utility that converts an uncompressed Bitcoin public key to both compressed and uncompressed Bitcoin addresses using built-in encoding logic.
+>>>>>>> 94c1743 (Add project README.md)
 
-This project is intended for **educational and learning purposes** only.
-
----
-
-## Features
-
-- ✅ Validates whether the provided public key is correctly formatted.
-- 🔒 Performs SHA-256 and RIPEMD-160 hashing.
-- 🚀 Creates Bitcoin addresses using Base58Check encoding.
-- 🎯 Outputs addresses for both compressed and uncompressed keys.
+- ✅ Key compression (`04...` → `02...` / `03...`)
+- ✅ Uncompressed and compressed address generation
+- ✅ Base58Check output (legacy-compatible)
+- ✅ Color-coded output in terminal
 
 ---
 
-## Requirements
+## ⚙️ Features
 
-- 🐍 Python 3.6+
+- 🔁 Compresses uncompressed public keys
+- 🔐 Generates valid Bitcoin addresses (both forms)
+- 🖥️ CLI-based interaction via terminal
+- 🎨 Visual feedback using `termcolor`
 
-**Required libraries:**
-```bash
-pip install pycryptodome base58 termcolor
+---
+
+## 📁 File Overview
+
+- `public_key_to_bitcoin_addresses.py` – Main conversion script  
+- `public_key_to_bitcoin_addresses.bat` – Windows launcher  
+- `.vscode/`  
+  - `settings.json` – Editor preferences  
+  - `launch.json` – Debugging configuration  
+  - `tasks.json` – Task runner integration  
+  - `extensions.json` – Recommended VS Code extensions  
+- `README.md` – This documentation  
+- `ETHICS.md` – Ethical usage guidelines  
+- `NOTICE` – Third-party attributions  
+- `LICENSE` – Apache 2.0 license  
+- `requirements.txt` – Python dependencies  
+
+---
+
+## 🛠️ Dependencies
+
+```
+pycryptodome
+base58
+termcolor
 ```
 
-Run the program:
+Install with:
 
+```bash
+pip install -r requirements.txt
+```
+
+> Python 3.8+ is recommended.
+
+---
+
+## 🚀 Usage
+
+### Option 1 – via Python:
 ```bash
 python public_key_to_bitcoin_addresses.py
 ```
 
-Enter an uncompressed public key (130 characters, starting with "04").
+### Option 2 – via `.bat` launcher (Windows):
+```cmd
+public_key_to_bitcoin_addresses.bat
+```
 
-The program will display:
-- The compressed public key.
-- Bitcoin address derived from the uncompressed key.
-- Bitcoin address derived from the compressed key.
-
----
-
-## License
-
-This project is distributed under the [MIT License](LICENSE), allowing you to:
-- 📖 Use freely
-- 📚 Copy
-- ✏️ Modify
-- 📢 Distribute with proper attribution to the original author.
-
-For more information, see the [LICENSE](LICENSE) file.
+- Input: 130-character uncompressed public key (starts with `04`)  
+- Output:  
+  - Compressed public key (`02`/`03`)  
+  - Bitcoin address from uncompressed key  
+  - Bitcoin address from compressed key  
 
 ---
 
-## Disclaimer
+## 📦 Example Output
 
-- 🚫 This tool is for educational and learning purposes only.
-- ⚠️ Do not use this program in production environments or for financial transactions.
-- ❗ The author is not liable for any losses, data corruption, financial damages, or any other consequences arising from the use of this project.
-- 🛡️ Use at your own risk.
+```
+Compressed Public Key:
+  03a34f7b56d...
+
+Bitcoin Address (Uncompressed):
+  1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
+Bitcoin Address (Compressed):
+  1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs
+```
 
 ---
 
-## 🎁 Support
+## ⚠️ DISCLAIMER
 
-If you'd like to support future development and research:
+This software is provided strictly for **educational, analytical, and research purposes only**.
+
+The author **does not promote or condone** any unethical behavior, unauthorized access, or abuse of blockchain systems or cryptographic tools.  
+By using this code, you agree to accept **full responsibility for your actions and their consequences**.
+
+This project **does not include or generate any real private keys** linked to actual cryptocurrency holdings.  
+It is designed to operate in **offline environments** or for simulation/testing purposes, using random or mock data for learning.
+
+**The author accepts no liability** for any damages, losses, or illegal use resulting from this software.  
+All responsibility lies solely with the end user.
+
+Any attempt to use this tool maliciously or exploitatively is **strictly prohibited** and may violate international laws.
+
+> **Use responsibly. Learn ethically. Contribute honestly.**
+
+---
+
+## ⚖️ Ethical Use
+
+This tool is created strictly for **research and educational purposes**.  
+See [ETHICS.md](./ETHICS.md) for the full statement.
+
+> ❗ Do not use this tool for brute-force attempts or unauthorized activity.  
+> 🧠 Use responsibly and with integrity.
+
+---
+
+## 📜 License
+
+Licensed under the [Apache 2.0 License](./LICENSE)
+
+---
+
+## 📣 NOTICE
+
+See [`NOTICE`](./NOTICE) for important information about attribution, DMCA protection, and reuse permissions.
+
+---
+
+## 📂 Project Structure
+
+```
+public-key-to-bitcoin-addresses/
+├── assets/
+│   └── banner.png
+├── .vscode/
+│   ├── settings.json
+│   ├── launch.json
+│   ├── tasks.json
+│   └── extensions.json
+├── public_key_to_bitcoin_addresses.py
+├── public_key_to_bitcoin_addresses.bat
+├── LICENSE
+├── NOTICE
+├── ETHICS.md
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## 🍱 Support
 
 ★ **Bitcoin (BTC)**  
 `1MorphXyhHpgmYSfvwUpWojphfLTjrNXc7`
@@ -78,15 +170,28 @@ If you'd like to support future development and research:
 ★ **Dash (DASH)**  
 `XtNuNfgaEXFKhtfxAKuDkdysxUqaZm7TDX`
 
----
-
-We also value early privacy coins such as **Bytecoin (BCN)**:
-
+**We also value early privacy coins such as:**  
+★ **Bytecoin (BCN)**  
 `bcnZNMyrDrweQgoKH6zpWaE2kW1VZRsX3aDEqnxBVEQfjNnPK6vvNMNRPA4S7YxfhsStzyJeP16woK6G7cRBydZm2TvLFB2eeR`
 
 🙏 *Thank you for supporting independent research and ethical technology.*
 
 ---
 
+<<<<<<< HEAD
 Created with dedication to education, blockchain exploration, and ethical research.  
 *“I morph bits, not to break, but to understand.” — BitMorphX*
+=======
+## 👤 Author & Contact
+
+🔗 GitHub: https://github.com/BitMorphX  
+✉️ Email: BitMorphX@proton.me  
+💬 Telegram: https://t.me/BitMorphX
+
+> _“I morph bits, not to break, but to understand.”_  
+> — **BitMorphX**
+
+---
+
+© BitMorphX – All rights reserved.
+>>>>>>> 94c1743 (Add project README.md)
